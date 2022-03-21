@@ -5,19 +5,6 @@ files:
     destination: /var/www/app
 hooks:
   BeforeInstall:
-    - location:
-      timeout:
-      runas:
   AfterInstall:
-    - location:
-      timeout:
-      runas:
   ApplicationStart:
-    - location:
-    - location:
-      timeout:
-      runas:
   ApplicationStop:
-    - location:
-      timeout:
-      runas:
